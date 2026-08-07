@@ -1343,19 +1343,19 @@ footer{
 
     position: fixed;
 
-    right: 20px;
+    right: 15px;
 
-    bottom: 155px;
+    bottom: 145px;
 
     display: flex;
 
     align-items: center;
 
-    gap: 10px;
+    gap: 8px;
 
-    padding: 0 18px;
+    padding: 0 16px;
 
-    height: 60px;
+    height: 52px;
 
     border: none;
 
@@ -1365,7 +1365,7 @@ footer{
 
     color: #fff;
 
-    font-size: 18px;
+    font-size: 16px;
 
     font-weight: 600;
 
@@ -1389,13 +1389,13 @@ footer{
 
 .cart-btn i{
 
-    font-size: 22px;
+    font-size: 18px;
 
 }
 
 .cart-text{
 
-    font-size: 16px;
+    font-size: 15px;
 
     white-space: nowrap;
 
@@ -1405,13 +1405,13 @@ footer{
 
     position: absolute;
 
-    top: -8px;
+    top: -6px;
 
-    right: -8px;
+    right: -6px;
 
-    width: 24px;
+    width: 20px;
 
-    height: 24px;
+    height: 20px;
 
     background: red;
 
@@ -1419,7 +1419,7 @@ footer{
 
     border-radius: 50%;
 
-    font-size: 13px;
+    font-size: 11px;
 
     font-weight: bold;
 
@@ -1428,6 +1428,50 @@ footer{
     align-items: center;
 
     justify-content: center;
+
+}
+
+/*========== MOBILE ==========*/
+
+@media (max-width:768px){
+
+    .cart-btn{
+
+        right: 12px;
+
+        bottom: 120px;
+
+        height: 46px;
+
+        padding: 0 14px;
+
+        gap: 6px;
+
+        font-size: 14px;
+
+    }
+
+    .cart-btn i{
+
+        font-size: 16px;
+
+    }
+
+    .cart-text{
+
+        font-size: 13px;
+
+    }
+
+    #cartCount{
+
+        width:18px;
+
+        height:18px;
+
+        font-size:10px;
+
+    }
 
 }
 /*================ FOOD ORDER POPUP ================*/
@@ -2253,4 +2297,26 @@ footer{
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(255,107,0,.25);
     border: 2px solid #ff6b00;
+}
+
+
+/*================ MOBILE LOGO =================*/
+
+.mobile-logo{
+    display:none;
+}
+
+@media (max-width:768px){
+
+    .desktop-logo{
+        display:none;
+    }
+
+    .mobile-logo{
+        display:inline;
+        font-size:18px;
+        font-weight:700;
+        color:#222;
+    }
+
 }
