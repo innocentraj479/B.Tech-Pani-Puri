@@ -1,5 +1,5 @@
 /* ==================================================
-            GOOGLE FONT
+            GOOGLE FON
 ==================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
@@ -2307,17 +2307,49 @@ footer{
 
 }
 
-/*================ MOBILE =================*/
+//*================ MOBILE =================*/
 
 @media (max-width:768px){
 
+    /* HEADER */
+
+    .navbar{
+        padding:8px 15px;
+        height:78px;
+    }
+
+    .logo{
+        gap:8px;
+    }
+
+    .logo img{
+        width:48px;
+        height:48px;
+    }
+
+    .desktop-logo{
+        display:none !important;
+    }
+
+    .mobile-logo{
+        display:inline !important;
+        font-size:22px !important;
+        font-weight:700;
+        color:#222;
+        white-space:nowrap;
+    }
+
     .menu-btn{
         display:block;
+        font-size:30px;
     }
+
+
+    /* MOBILE NAVIGATION */
 
     .nav-links{
         position:absolute;
-        top:75px;
+        top:78px;
         left:0;
         width:100%;
         background:#fff;
@@ -2333,38 +2365,46 @@ footer{
         display:flex;
     }
 
-    .desktop-logo{
-        display:none;
-    }
 
-    .mobile-logo{
-        display:inline;
-        font-size:18px;
-        font-weight:700;
-        color:#222;
-    }
+    /* CART BUTTON */
 
     .cart-btn{
+        width:48px;
+        height:48px;
         right:12px;
-        bottom:90px;
-        height:44px;
-        padding:0 12px;
-        font-size:14px;
-        gap:6px;
+        bottom:165px;
     }
 
     .cart-btn i{
-        font-size:16px;
-    }
-
-    .cart-text{
-        font-size:13px;
+        font-size:18px;
     }
 
     #cartCount{
-        width:18px;
-        height:18px;
-        font-size:10px;
+        width:16px;
+        height:16px;
+        font-size:9px;
+    }
+
+
+    /* TOP ARROW */
+
+    #topBtn{
+        width:50px;
+        height:50px;
+        right:20px;
+        bottom:95px;
+        font-size:22px;
+        z-index:998;
+    }
+
+
+    /* WHATSAPP */
+
+    .whatsapp-btn{
+        width:55px;
+        height:55px;
+        right:20px;
+        bottom:20px;
     }
 
 }
