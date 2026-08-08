@@ -2307,24 +2307,26 @@ footer{
 
 }
 
-//*================ MOBILE =================*/
+///*================ MOBILE =================*/
 
 @media (max-width:768px){
 
-    /* HEADER */
+    /*========== MOBILE HEADER ==========*/
 
     .navbar{
-        padding:8px 15px;
-        height:78px;
+        padding:5px 12px;
+        height:65px;
+        min-height:65px;
     }
 
     .logo{
-        gap:8px;
+        gap:6px;
+        height:65px;
     }
 
     .logo img{
-        width:48px;
-        height:48px;
+        width:42px;
+        height:42px;
     }
 
     .desktop-logo{
@@ -2333,7 +2335,7 @@ footer{
 
     .mobile-logo{
         display:inline !important;
-        font-size:22px !important;
+        font-size:20px !important;
         font-weight:700;
         color:#222;
         white-space:nowrap;
@@ -2341,15 +2343,15 @@ footer{
 
     .menu-btn{
         display:block;
-        font-size:30px;
+        font-size:28px;
     }
 
 
-    /* MOBILE NAVIGATION */
+    /*========== MOBILE NAVIGATION ==========*/
 
     .nav-links{
         position:absolute;
-        top:78px;
+        top:65px;
         left:0;
         width:100%;
         background:#fff;
@@ -2366,7 +2368,7 @@ footer{
     }
 
 
-    /* CART BUTTON */
+    /*========== CART BUTTON ==========*/
 
     .cart-btn{
         width:48px;
@@ -2386,7 +2388,7 @@ footer{
     }
 
 
-    /* TOP ARROW */
+    /*========== TOP ARROW ==========*/
 
     #topBtn{
         width:50px;
@@ -2398,7 +2400,7 @@ footer{
     }
 
 
-    /* WHATSAPP */
+    /*========== WHATSAPP BUTTON ==========*/
 
     .whatsapp-btn{
         width:55px;
