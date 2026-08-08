@@ -2410,3 +2410,54 @@ footer{
     }
 
 }
+
+
+/*================ MOBILE HEADER FINAL FIX ================*/
+
+@media (max-width:768px){
+
+    header{
+        height:65px !important;
+        min-height:65px !important;
+    }
+
+    .navbar{
+        height:65px !important;
+        min-height:65px !important;
+        padding:0 12px !important;
+        box-sizing:border-box;
+    }
+
+    .logo{
+        height:65px !important;
+        gap:6px;
+        display:flex;
+        align-items:center;
+    }
+
+    .logo img{
+        width:40px !important;
+        height:40px !important;
+    }
+
+    .desktop-logo{
+        display:none !important;
+    }
+
+    .mobile-logo{
+        display:inline !important;
+        font-size:20px !important;
+        line-height:1 !important;
+        white-space:nowrap;
+    }
+
+    .menu-btn{
+        display:block !important;
+        font-size:28px !important;
+    }
+
+    .nav-links{
+        top:65px !important;
+    }
+
+}
